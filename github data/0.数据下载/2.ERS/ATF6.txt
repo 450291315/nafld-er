@@ -1,0 +1,9 @@
+GOBP_ATF6_MEDIATED_UNFOLDED_PROTEIN_RESPONSE
+> A series of molecular signals mediated by the endoplasmic reticulum membrane stress sensor ATF6 (activating transcription factor 6). Begins with activation of ATF6 in response to endoplasmic reticulum (ER) stress, and ends with regulation of a downstream cellular process, e.g. transcription. Under conditions of endoplasmic reticulum stress, ATF6 translocates to the Golgi where it is processed by proteases to release a cytoplasmic domain (ATF6f), which operates as a transcriptional activator of many genes required to restore folding capacity. [GOC:bf, GOC:PARL, PMID:22013210]
+ATF6
+ATF6B
+DDIT3
+HSPA5
+MBTPS1
+MBTPS2
+WFS1

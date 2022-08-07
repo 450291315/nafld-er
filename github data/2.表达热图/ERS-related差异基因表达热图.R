@@ -1,0 +1,26 @@
+#20220210
+setwd("./2.表达热图")
+library(ComplexHeatmap)
+
+#ERS-related差异表达基因
+gene <- read.table("交集基因.txt")
+
+#热图输入数据准备
+data <- read.table("exprmatrix.txt", sep = "\t", row.names = 1, header = T, check.names = F)
+exprmatrix <- data[rownames(data) %in% gene$V1,]  #筛选差异基因的表达矩阵
+write.csv(exprmatrix, "热图输入数据.csv", quote = F, row.names = T)
+exprmatrix <- as.matrix(exprmatrix)
+exprmatrix <- log2(exprmatrix + 1)
+
+#heatmap
+pdf("heatmap.pdf", width = 10.0, height = 6.0)
+p2 <- Heatmap(exprmatrix, 
+              show_row_names = T,
+              show_column_names = F,
+              cluster_columns = F,
+              column_split = factor(c(rep("normal", 14), rep("disease", 15)), levels = c("normal","disease")),
+              top_annotation = HeatmapAnnotation(foo = anno_block(gp = gpar(fill = c("#41ead4", "#ff8fa3"), col = c("#41ead4", "#ff8fa3")),
+                                                                  labels_gp = gpar(col = "white", fontsize = 10))),
+              heatmap_legend_param = list(title = "expr"))
+print(p2)
+dev.off()

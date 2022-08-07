@@ -1,0 +1,19 @@
+Top 17 in network string_interactions_short.tsv ranked by MCC method
+Rank,Name,Score
+1,ERN1,142.0
+2,ATF6,139.0
+3,EIF2S1,133.0
+4,ATF6B,126.0
+5,MBTPS2,120.0
+5,MBTPS1,120.0
+7,BCL2L11,7.0
+8,NFE2L2,6.0
+8,WFS1,6.0
+10,NCK1,5.0
+11,PTPN1,4.0
+12,PPP1R15B,2.0
+12,NCK2,2.0
+14,VAPB,1.0
+14,BOK,1.0
+14,PARP16,1.0
+14,DAB2IP,1.0

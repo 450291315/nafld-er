@@ -1,0 +1,20 @@
+GOBP_PERK_MEDIATED_UNFOLDED_PROTEIN_RESPONSE
+> A series of molecular signals mediated by the endoplasmic reticulum membrane stress sensor PERK (PKR-like ER kinase). Begins with activation of PERK in response to endoplasmic reticulum (ER) stress and ends with regulation of a downstream cellular process, e.g. transcription. The main substrate of PERK is the translation initiation factor eIF2alpha. Serine-phosphorylation of eIF2alpha by PERK inactivates eIF2alpha and inhibits general protein translation. In addition, eIF2alpha phosphorylation preferentially increases the translation of selective mRNAs such as ATF4 (activating transcription factor 4), which up regulates a subset of UPR genes required to restore folding capacity. [GOC:bf, GOC:PARL, PMID:22013210, PMID:27629041]
+ABCA7
+AGR2
+ATF4
+BOK
+DDIT3
+EIF2AK3
+EIF2S1
+HSPA5
+NCK1
+NCK2
+NFE2L2
+PPP1R15A
+PPP1R15B
+PTPN1
+PTPN2
+QRICH1
+TMED2
+TMEM33
